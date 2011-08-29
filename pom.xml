@@ -9,10 +9,6 @@
     <artifactId>jpa-lazy-fetch-iterator</artifactId>
     <version>1.0</version>
 
-    <properties>
-        <slf4j.version>1.6.1</slf4j.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -36,6 +32,7 @@
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
             <version>1.8.5</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
