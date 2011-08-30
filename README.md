@@ -1,7 +1,9 @@
 Iterator which fetches rows from DB on demand manner.
 
-= Example =
+Example
+=======
 
+```java
 @PersistenceContext
 private EntityManager em;
 
@@ -16,4 +18,4 @@ public Iterable<Employee> getAllEmployees() {
         }
     };
 }
-
+```
